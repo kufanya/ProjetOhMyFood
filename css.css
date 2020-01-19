@@ -16,6 +16,21 @@ header{
 	margin:0px;
 	z-index:2;
 }
+body{
+	display:flex;
+	justify-content:center;
+}
+#contenaire{
+	position:absolute;
+	margin-top:35px;
+	margin-bottom:35px;
+	top:135px;
+	height:100%;
+	width:80%;
+	background-color:grey;
+
+
+}
 
 footer{
 	position:fixed;
