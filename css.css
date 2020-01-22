@@ -1,7 +1,13 @@
-body{
-	background-color:white;
-	margin:0px;
+body {
+	background-color: white;
+	margin: 0px;
+	display: flex;
+	justify-content:center;
+	overflow:scroll;
+	
 }
+
+
 
 header{
 	position:fixed;
@@ -14,37 +20,26 @@ header{
 	justify-content:center;
 	align-items:center;
 	margin:0px;
+	margin-bottom:50px;
 	z-index:2;
 }
-body{
-	display:flex;
-	justify-content:center;
-}
-#contenaire{
-	position:absolute;
-	margin-top:35px;
-	margin-bottom:90px;
-	top:135px;
-	bottom:90px;
-	height:100%;
-	width:80%;
-	background-color:grey;
 
 
-}
 
-footer{
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	right:0px;
-	height:70px;
-	background-color:#0B9D49;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	margin:0px;
-	z-index:2;	
+
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 70px;
+	background-color: #0B9D49;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	z-index: 2;
 }
 
 footer a{
@@ -68,3 +63,8 @@ footer a{
 	height:65%;
 
 }
+
+
+/* menuUn css */
+
+

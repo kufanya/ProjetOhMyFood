@@ -1,0 +1,26 @@
+#menuUn{
+	bottom:90px;
+	margin-bottom:10px;
+	width:30%;
+	min-width:530px;
+	min-height:750px;
+	height:75%;
+	background-color:grey;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+
+
+#menuUn img{
+	margin-top:40px;
+}
+
+.menuExemple{
+	margin-top:230px;
+	margin-bottom:100px;
+	display:flex;
+	flex-direction:column;
+	align-items:center; 
+}
