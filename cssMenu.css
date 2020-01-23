@@ -11,9 +11,12 @@
 	align-items:center;
 }
 
+#menuUn h2{
+	margin:10px;
+}
 
 
-#menuUn img{
+#menuUn #logoIc{
 	margin-top:40px;
 }
 
@@ -24,3 +27,59 @@
 	flex-direction:column;
 	align-items:center; 
 }
+
+.ligne{
+	width:35%;
+	height:4px;
+	background-color:black;
+	margin-right:40px;
+	margin-left:40px;
+}
+
+.ligneT{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+
+
+.lingeT p{
+	text-align:center;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.menuListe{
+	margin:8px;
+	text-align:left;
+}
+
+.menuListe span{
+	padding-left:40px;
+}
+#dernierSect{
+	width:85%;
+}
+.menuListeDeux{
+	text-align:left;
+	margin-left:0px;
+	margin-top:7px;
+	margin-bottom:7px;
+}
+
+.dernierBas{
+	font-weight:bold;
+	display:flex;
+	align-items:center;
+	max-height:32px;
+}
+
+.dernierBas .basLogo{
+	width:32px;
+	margin-top:0px;
+	margin-right:12px;
+}
+
+
