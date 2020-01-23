@@ -68,3 +68,30 @@ footer a{
 /* menuUn css */
 
 
+.hu{
+	margin-top:155px;
+	width:80%;
+	height:100%;
+	border:1px solid black;
+	margin-bottom:100px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+
+}
+
+.hu section{
+	width:35%;
+	height:45%;
+	border:1px solid blue;
+	min-height:650px;
+	min-width:450px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:2%;
+	margin-bottom:2%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
