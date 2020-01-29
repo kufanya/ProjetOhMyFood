@@ -78,10 +78,13 @@
 
 /* effet soulignement */
 .souligneMoi{
-  text-decoration:none;
-  background:linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%,
-  rgba(255, 0, 0, 0.5) 10%,
-  transparent 10.10%) no-repeat left bottom / 0 100%;
+  color:#000;
+  line-height:1.1;
+}
+.souligneMoi{
+  background:linear-gradient(to top, transparent 10%, rgba(255, 0, 0, 0.5) 10.01%,
+  rgba(255, 0, 0, 0.5) 40%, transparent 10.10%) no-repeat left bottom / 0 100%;
+  background-size:0 100%;
   transition:background-size:.3s;
   
 }
