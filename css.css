@@ -16,7 +16,7 @@ header{
 	top:0px;
 	left:0px;
 	right:0px;
-	height:125px;
+	height:10%;
 	background-color:#0B9D49;
 	display:flex;
 	justify-content:center;
@@ -35,7 +35,7 @@ footer {
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	height: 70px;
+	height:10%;
 	background-color: #0B9D49;
 	display: flex;
 	justify-content: center;
@@ -51,13 +51,18 @@ footer a{
 	font-size:1.2rem;
 }
 
+/* menu exemple */
+
+
 .ml{
 	position:fixed;
 	left:40px;
+	font-size:70%;
 }
 .cn{
 	position:fixed;
 	right:40px;
+	font-size:70%;
 
 }
 

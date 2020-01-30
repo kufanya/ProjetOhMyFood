@@ -1,15 +1,64 @@
 #menuUn{
-	bottom:90px;
 	margin-bottom:10px;
-	width:30%;
-	min-width:530px;
-	min-height:750px;
 	height:75%;
 	background-color:grey;
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 }
+
+#menuUn img{
+	width:10%;
+}
+
+.menuExemple{
+	margin-top:10%;
+	margin-bottom:100px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:55%; 
+}
+
+#menuPlat{
+/* instructions */
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+
+}
+
+.dernierSectionMenu{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+}
+
+.dernierSectionMenu p{
+	font-size:10px;
+	flex-wrap:nowrap;
+	margin-right:13%;
+		margin-bottom:6px;
+	margin-top:6px;
+}
+
+#menuPlat p{
+	font-size:10px;
+	flex-wrap:nowrap;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+
+#menuPlat span{
+	padding-left:30px;
+}
+/*  */
+
+
+
+
 
 #menuUn h2{
 	margin:10px;
@@ -20,13 +69,7 @@
 	margin-top:40px;
 }
 
-.menuExemple{
-	margin-top:230px;
-	margin-bottom:100px;
-	display:flex;
-	flex-direction:column;
-	align-items:center; 
-}
+
 
 .ligne{
 	width:35%;
@@ -44,7 +87,7 @@
 }
 
 hr{
-	width:185px;
+	width:100%;
 	min-width:100px;
 	height:2px;
 	background-color:white;
@@ -53,24 +96,9 @@ hr{
 	margin-left:15px;
 	margin-right:15px;
 }
-#menuPlat{
-/* instructions */
-}
 
-.dernierSectionMenu{
-	width:100%;
-}
 
-.dernierSectionMenu p{
-	margin-left:40px;
-}
-#menuPlat span{
-	margin-left:40px;
-}
 
-#menuPlat p{
-	text-align:left;
-}
 
 
 .precision{
