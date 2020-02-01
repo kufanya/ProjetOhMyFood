@@ -48,7 +48,7 @@ footer a{
 	text-decoration:none;
 	color:#F1C40F;
 	font-weight:bold;
-	font-size:1.2rem;
+	
 }
 
 /* menu exemple */
@@ -57,13 +57,17 @@ footer a{
 .ml{
 	position:fixed;
 	left:40px;
-	font-size:70%;
 }
 .cn{
 	position:fixed;
 	right:40px;
-	font-size:70%;
+	font-weight:bold;
+	
 
+}
+
+.ml , .cn{
+	font-size:2em;
 }
 
 .logo{
@@ -117,4 +121,146 @@ footer a{
 	color:#F1C40F;
 	font-weight:bold;
 	border-radius:14px;
+}
+
+
+/* mise en page index les menus textuelles et images*/
+
+#menuUn{
+	margin-bottom:10px;
+	height:75%;
+	background-color:grey;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+#menuUn img{
+	width:10%;
+}
+
+.menuExemple{
+	margin-top:10%;
+	margin-bottom:100px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:55%; 
+}
+
+#menuPlat{
+/* instructions */
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+
+}
+
+.dernierSectionMenu{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+}
+
+.dernierSectionMenu p{
+	font-size:10px;
+	flex-wrap:nowrap;
+	margin-right:13%;
+		margin-bottom:6px;
+	margin-top:6px;
+}
+
+#menuPlat p{
+	font-size:10px;
+	flex-wrap:nowrap;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+
+#menuPlat span{
+	padding-left:30px;
+}
+/*  */
+
+
+
+
+
+#menuUn h2{
+	margin:10px;
+}
+
+
+#menuUn #logoIc{
+	margin-top:40px;
+}
+
+
+
+.ligne{
+	width:35%;
+	height:4px;
+	background-color:black;
+	margin-right:30px;
+	margin-left:30px;
+}
+
+
+/* ligne Titre */
+#ligneTitrePlat{
+	display:flex;
+	flex-direction:row;
+}
+
+hr{
+	width:100%;
+	min-width:100px;
+	height:2px;
+	background-color:white;
+	border:none;
+	color:white;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+
+
+
+
+.precision{
+	margin-top:20px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	max-height:52px;
+	height:52px;
+}
+
+.precision img{
+	margin-right:15px;
+}
+
+/*                                          */
+
+
+
+
+
+
+
+
+
+
+
+/* effet css */
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+	transform: scale(1.05);
+	opacity:0.6;
 }
